@@ -1,0 +1,20 @@
+path: /home/mikepi/Coding/NU/Stazhirovki/Qazaq_Stroy/data/2_0/  # dataset root dir
+train: train_2/  # train images (relative to 'path')
+val: validation_2/  # val images (relative to 'path')
+
+# Classes
+names:
+  0: 01 Receipt
+  1: 04-01 Counterparty 1
+  2: 04-02 Counterparty 2
+  3: 05 Contract
+  4: 06 Our Company BIN
+  5: 07 Counterparty Bank BIC
+  6: 08 Counterparty Current Account IIC
+  7: 09 Counterparty Payment Purpose Code
+  8: 10 Items Table
+  9: 10-01 Item
+  10: 10-02 Unit
+  11: 10-03 Quantity
+  12: 10-04 Price
+  13: 10-05 Amount
